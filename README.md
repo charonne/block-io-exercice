@@ -37,9 +37,9 @@ Note: You are identified in block.io with your API key, so you don't need to use
 You can make a test payment on 2N6rmc2rcsFnPQHPskzVRGQ9XyHbEmyPudX
 
 <h2>Improvement</h2>
-You can use <code>get_my_addresses()</code> to automaticaly select the address with enough bitcoin
-Example:
-<code>
+You can use <code>get_my_addresses()</code> to automaticaly select the address with enough bitcoin.<br />
+Example:<br />
+<pre>
 $totalAmount = 0.001;
 $blockAddresses = $block_io->get_my_addresses();
 foreach($blockAddresses->data->addresses as $address) {
@@ -48,4 +48,4 @@ foreach($blockAddresses->data->addresses as $address) {
         break;
     }
 }
-</code>
+</pre>
