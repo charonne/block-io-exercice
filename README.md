@@ -10,7 +10,7 @@ Click on <strong>Show API Keys</strong> and get the <strong>Bitcoin</strong> key
 
 <h1>Install</h1>
 <h2>Get the project</h2>
-Clone the project<br />
+Clone this project, go in the project directory<br />
 <code>cd block-io-exercice</code>
 
 <h2>Configure</h2>
