@@ -11,13 +11,11 @@ Click on <strong>Show API Keys</strong> and get the <strong>Bitcoin</strong> key
 
 <h1>Install</h1>
 <h2>Get the project</h2>
-Clone the project 
-<code>
-cd block-io-exercice
-</code>
+Clone the project<br />
+<code>cd block-io-exercice</code>
 
 <h2>Configure</h2>
-Edit index.php and add
+Edit <pre>index.php</pre> and add
 your <strong>Bitcoin api key</strong> <code>$apiKey = 'xxxx-xxxx-xxxx-xxxx';</code><br />
 and your <strong>pin password</strong> <code>$pin = 'xxxxxx';</code><br />
 
