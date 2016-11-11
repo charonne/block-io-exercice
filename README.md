@@ -21,11 +21,12 @@ and your <strong>pin password</strong> <code>$pin = 'xxxxxx';</code><br />
 <h2>Test</h2>
 Execute
 <pre>php index.php</pre>
+Then you should see the balance of the <i>2N6rmc2rcsFnPQHPskzVRGQ9XyHbEmyPudX</i> address<br />
 
-You might need to install some packages
+<i>You might need to install some packages</i>
 <pre>apt-get update && apt-get -y install php5-curl php5-mcrypt</pre>
 
-Then you should see the balance of the <i>2N6rmc2rcsFnPQHPskzVRGQ9XyHbEmyPudX</i> address<br />
+
 
 <h1>Exercice</h1>
 <h2>Purpose</h2>
