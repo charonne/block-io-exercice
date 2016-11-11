@@ -19,10 +19,15 @@ php index.php
 
 You might need to install 
 <pre>apt-get update && apt-get -y install php5-curl php5-mcrypt</pre>
+
 <h2>Configure</h2>
 Edit index.php and add
 your <strong>Bitcoin api key</strong> <code>$apiKey = 'xxxx-xxxx-xxxx-xxxx';</code><br />
-and your <strong>pin password</strong> <code>$pin = 'xxxxxx';</code>
+and your <strong>pin password</strong> <code>$pin = 'xxxxxx';</code><br />
+
+<h2>Test</h2>
+Execute
+<pre>php index.php</pre>
 
 <h1>Exercice</h1>
 <h2>Purpose</h2>
