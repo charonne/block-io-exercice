@@ -36,7 +36,8 @@ Use the <code>withdraw_from_addresses()</code> function to make payments. Detail
 Note: You are identified in block.io with your API key, so you don't need to use any private key on the <code>'from_addresses' => 'ADDRESS1,ADDRESS2,...'</code>, just your block.io public key.<br />
 <br />
 You can make a test payment on 2N6rmc2rcsFnPQHPskzVRGQ9XyHbEmyPudX
-
+<br />
+For your test, you can have free testnet bitcoins on https://testnet.manu.backend.hamburg/faucet
 <h2>Improvement</h2>
 You can use <code>get_my_addresses()</code> to automaticaly select the address with enough bitcoin.<br />
 Example:<br />
