@@ -32,4 +32,4 @@ Then you should see the balance of the <i>2N6rmc2rcsFnPQHPskzVRGQ9XyHbEmyPudX</i
 Make payments with the block.io PHP API
 <h2>Details</h2>
 Use the <code>withdraw_from_addresses</code> function to make payments<br />
-Use the block.io PHP API documentation: https://www.block.io/api/simple/php
+Use the block.io PHP API documentation: <a href="https://www.block.io/api/simple/php" target="_blank">https://www.block.io/api/simple/php</a>
