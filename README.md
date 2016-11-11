@@ -1,7 +1,6 @@
 # block-io-exercice
 Make a testnet payment in php with block.io
 <br />
-The block.io PHP API documentation: https://www.block.io/api/simple/php
 
 <h1>Get a block.io account</h1>
 Go on https://www.block.io and create an account (you can skip the Plan choice)<br>
@@ -23,11 +22,14 @@ and your <strong>pin password</strong> <code>$pin = 'xxxxxx';</code><br />
 Execute
 <pre>php index.php</pre>
 
-You might need to install 
+You might need to install some packages
 <pre>apt-get update && apt-get -y install php5-curl php5-mcrypt</pre>
+
+Then you should see the balance of the <i>2N6rmc2rcsFnPQHPskzVRGQ9XyHbEmyPudX</i> address<br />
 
 <h1>Exercice</h1>
 <h2>Purpose</h2>
 Make payments with the block.io PHP API
 <h2>Details</h2>
-Use the <code>withdraw_from_addresses</code> function to make payments
+Use the <code>withdraw_from_addresses</code> function to make payments<br />
+Use the block.io PHP API documentation: https://www.block.io/api/simple/php
