@@ -22,7 +22,7 @@ and your <strong>pin password</strong> <code>$pin = 'xxxxxx';</code><br />
 Execute
 <pre>php index.php</pre>
 Then you should see the balance of the <i>2N6rmc2rcsFnPQHPskzVRGQ9XyHbEmyPudX</i> address<br />
-You can verify on http://tbtc.blockr.io/address/info/2N6rmc2rcsFnPQHPskzVRGQ9XyHbEmyPudX (it's not block.io, but blockr.io)<br />
+You can verify on http://tbtc.blockr.io/address/info/2N6rmc2rcsFnPQHPskzVRGQ9XyHbEmyPudX (it's not block.io, but blockr.io services)<br />
 <br />
 <i>You might need to install some packages</i>
 <pre>apt-get update && apt-get -y install php5-curl php5-mcrypt</pre>
