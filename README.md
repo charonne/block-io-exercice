@@ -14,11 +14,7 @@ Click on <strong>Show API Keys</strong> and get the <strong>Bitcoin</strong> key
 Clone the project 
 <code>
 cd block-io-exercice
-php index.php
 </code>
-
-You might need to install 
-<pre>apt-get update && apt-get -y install php5-curl php5-mcrypt</pre>
 
 <h2>Configure</h2>
 Edit index.php and add
@@ -28,6 +24,9 @@ and your <strong>pin password</strong> <code>$pin = 'xxxxxx';</code><br />
 <h2>Test</h2>
 Execute
 <pre>php index.php</pre>
+
+You might need to install 
+<pre>apt-get update && apt-get -y install php5-curl php5-mcrypt</pre>
 
 <h1>Exercice</h1>
 <h2>Purpose</h2>
