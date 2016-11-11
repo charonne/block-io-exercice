@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 include('block_io.php');
 
-$apiKey = 'xxxxxx';
+$apiKey = 'xxxx-xxxx-xxxx-xxxx';
 $version = 2; // API version
 $pin = 'xxxxxx';
 $block_io = new BlockIo($apiKey, $pin, $version);
