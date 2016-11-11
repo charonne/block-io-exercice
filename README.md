@@ -33,5 +33,6 @@ Make payments with the block.io PHP API
 <h2>Details</h2>
 Use the <code>withdraw_from_addresses</code> function to make payments<br />
 Details are on the block.io PHP API documentation: <a href="https://www.block.io/api/simple/php" target="_blank">https://www.block.io/api/simple/php</a><br />
+Note: You are identified in block.io with your API key. You don't need to use any private key on the <code>'from_addresses' => 'ADDRESS1,ADDRESS2,...'</code>
 <br />
 You can make a test payment on 2N6rmc2rcsFnPQHPskzVRGQ9XyHbEmyPudX
